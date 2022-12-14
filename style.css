@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nova+Cut&family=Poppins:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(73, 56, 220);
+}
+
+.container{
+    position: sticky;
+    background-color: white;
+    margin: auto;
+    width: 30%;
+    margin-top: 180px;
+    padding-inline: 20px;
+    padding: 30px;
+    justify-self: center;
+    border-radius: 8px;
+}
+
+.topbox i{
+    font-size: 25px;
+    margin: 4px 0;
+}
+
+.topbox h1{
+    margin: 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.topbox p{
+    font-family: 'Nova Cut', cursive;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.topbox p:nth-child(4){
+    display: flex;
+    justify-content: end;
+}
+
+.topbox hr{
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.endbox{
+    margin-top: 15px;
+}
+
+.endbox img{
+    margin-top: 15px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.button{
+    cursor: pointer;
+    position: relative;
+    float: right;
+    bottom: 0%;
+    background-color: rgb(73, 56, 220);
+    color: white;
+    padding: 2px 20px;
+    border-radius: 30px;
+}
+
+.button p{
+    font-family: poppins, sans-serif;
+}
